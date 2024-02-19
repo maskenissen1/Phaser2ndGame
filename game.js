@@ -1,9 +1,9 @@
 var config = {
     type: Phaser.AUTO,
     // Ширина вікна гри
-    width: 800,
+    width: 1920,
     // Висота вікна гри
-    height: 600,
+    height: 1080,
     physics: {
         default: 'arcade',
         arcade: {
@@ -33,10 +33,11 @@ function preload ()
 function create ()
 {
     // Додавання зображення неба
-    this.add.image(0, 0, 'fone').setScale(2);
+    this.add.image(700, 550, 'fone').setScale(4);
 }
 
 function update()
 {
+
 
 }
